@@ -1,0 +1,362 @@
+[
+ {
+  "weaponName": "AWM",
+  "baseDamage": 105,
+  "fireRate": 1.85,
+  "reloadTime": 4.6,
+  "spawnRate": 0.0023,
+  "accuracy": 0.1282,
+  "killDistance": 148.51
+ },
+ {
+  "weaponName": "Kar98k",
+  "baseDamage": 79,
+  "fireRate": 1.9,
+  "reloadTime": 4,
+  "spawnRate": 0.044,
+  "accuracy": 0.0785,
+  "killDistance": 111.13
+ },
+ {
+  "weaponName": "M24",
+  "baseDamage": 75,
+  "fireRate": 1.8,
+  "reloadTime": 4.2,
+  "spawnRate": 0.025,
+  "accuracy": 0.0893,
+  "killDistance": 106.88
+ },
+ {
+  "weaponName": "Win94",
+  "baseDamage": 66,
+  "fireRate": 0.6,
+  "reloadTime": 4,
+  "spawnRate": 0.0798,
+  "accuracy": 0.4443,
+  "killDistance": 47.75
+ },
+ {
+  "weaponName": "Deagle",
+  "baseDamage": 62,
+  "fireRate": 0.25,
+  "reloadTime": 2.5,
+  "spawnRate": 0.0059,
+  "accuracy": 0.4043,
+  "killDistance": 42.49
+ },
+ {
+  "weaponName": "Mk14 EBR",
+  "baseDamage": 61,
+  "fireRate": 0.09,
+  "reloadTime": 3.683,
+  "spawnRate": 0.0014,
+  "accuracy": 0.2615,
+  "killDistance": 151.73
+ },
+ {
+  "weaponName": "SLR",
+  "baseDamage": 58,
+  "fireRate": 0.1,
+  "reloadTime": 3.683,
+  "spawnRate": 0.0368,
+  "accuracy": 0.2598,
+  "killDistance": 117.82
+ },
+ {
+  "weaponName": "R1895",
+  "baseDamage": 55,
+  "fireRate": 0.4,
+  "reloadTime": 6.25,
+  "spawnRate": 0.0223,
+  "accuracy": 0.4447,
+  "killDistance": 5.04
+ },
+ {
+  "weaponName": "R45",
+  "baseDamage": 55,
+  "fireRate": 0.25,
+  "reloadTime": 3.2,
+  "spawnRate": 0.0061,
+  "accuracy": 0.4227,
+  "killDistance": 13.8
+ },
+ {
+  "weaponName": "SKS",
+  "baseDamage": 53,
+  "fireRate": 0.09,
+  "reloadTime": 4.55,
+  "spawnRate": 0.0466,
+  "accuracy": 0.2575,
+  "killDistance": 96.08
+ },
+ {
+  "weaponName": "DP-28",
+  "baseDamage": 51,
+  "fireRate": 0.109,
+  "reloadTime": 5.5,
+  "spawnRate": 0.0263,
+  "accuracy": 0.1533,
+  "killDistance": 12.99
+ },
+ {
+  "weaponName": "Ak47 Mutant",
+  "baseDamage": 49,
+  "fireRate": 0.1,
+  "reloadTime": 3.36,
+  "spawnRate": 0.0241,
+  "accuracy": 0.2218,
+  "killDistance": 18.85
+ },
+ {
+  "weaponName": "QBU",
+  "baseDamage": 48,
+  "fireRate": 0.1,
+  "reloadTime": 3,
+  "spawnRate": 0.0557,
+  "accuracy": 0.2395,
+  "killDistance": 72.41
+ },
+ {
+  "weaponName": "AKM",
+  "baseDamage": 47,
+  "fireRate": 0.1,
+  "reloadTime": 2.9,
+  "spawnRate": 0.0816,
+  "accuracy": 0.1332,
+  "killDistance": 14.21
+ },
+ {
+  "weaponName": "Groza",
+  "baseDamage": 47,
+  "fireRate": 0.08,
+  "reloadTime": 3,
+  "spawnRate": 0.001,
+  "accuracy": 0.1024,
+  "killDistance": 21.18
+ },
+ {
+  "weaponName": "Mini14",
+  "baseDamage": 46,
+  "fireRate": 0.13,
+  "reloadTime": 3.6,
+  "spawnRate": 0.0393,
+  "accuracy": 0.2486,
+  "killDistance": 82.11
+ },
+ {
+  "weaponName": "Beryl",
+  "baseDamage": 46,
+  "fireRate": 0.086,
+  "reloadTime": 2.9,
+  "spawnRate": 0.0367,
+  "accuracy": 0.1321,
+  "killDistance": 12.06
+ },
+ {
+  "weaponName": "M249",
+  "baseDamage": 45,
+  "fireRate": 0.075,
+  "reloadTime": 8.2,
+  "spawnRate": 0.0009,
+  "accuracy": 0.1272,
+  "killDistance": 23.13
+ },
+ {
+  "weaponName": "M16A4",
+  "baseDamage": 43,
+  "fireRate": 0.075,
+  "reloadTime": 2.2,
+  "spawnRate": 0.0556,
+  "accuracy": 0.2269,
+  "killDistance": 23.6
+ },
+ {
+  "weaponName": "P1911",
+  "baseDamage": 41,
+  "fireRate": 0.11,
+  "reloadTime": 2.1,
+  "spawnRate": 0.0205,
+  "accuracy": 0.3426,
+  "killDistance": 8.64
+ },
+ {
+  "weaponName": "SCAR-L",
+  "baseDamage": 41,
+  "fireRate": 0.096,
+  "reloadTime": 2.2,
+  "spawnRate": 0.0749,
+  "accuracy": 0.1287,
+  "killDistance": 18.23
+ },
+ {
+  "weaponName": "QBZ95",
+  "baseDamage": 41,
+  "fireRate": 0.092,
+  "reloadTime": 3.66,
+  "spawnRate": 0.0936,
+  "accuracy": 0.1399,
+  "killDistance": 15.25
+ },
+ {
+  "weaponName": "VSS Vintorez",
+  "baseDamage": 41,
+  "fireRate": 0.086,
+  "reloadTime": 2.9,
+  "spawnRate": 0.0116,
+  "accuracy": 0.1437,
+  "killDistance": 29.11
+ },
+ {
+  "weaponName": "G36C",
+  "baseDamage": 41,
+  "fireRate": 0.086,
+  "reloadTime": 3.8,
+  "spawnRate": 0.1011,
+  "accuracy": 13.36,
+  "killDistance": 15.47
+ },
+ {
+  "weaponName": "M416",
+  "baseDamage": 41,
+  "fireRate": 0.085,
+  "reloadTime": 0.021,
+  "spawnRate": 0.0987,
+  "accuracy": 0.1238,
+  "killDistance": 19.23
+ },
+ {
+  "weaponName": "AUG A3",
+  "baseDamage": 41,
+  "fireRate": 0.085,
+  "reloadTime": 3.66,
+  "spawnRate": 0.0013,
+  "accuracy": 0.1187,
+  "killDistance": 24.57
+ },
+ {
+  "weaponName": "Tommy Gun",
+  "baseDamage": 40,
+  "fireRate": 0.086,
+  "reloadTime": 3.45,
+  "spawnRate": 0.0129,
+  "accuracy": 0.1266,
+  "killDistance": 8.45
+ },
+ {
+  "weaponName": "UMP45",
+  "baseDamage": 39,
+  "fireRate": 0.092,
+  "reloadTime": 3.1,
+  "spawnRate": 0.0327,
+  "accuracy": 0.1536,
+  "killDistance": 10.75
+ },
+ {
+  "weaponName": "P92",
+  "baseDamage": 35,
+  "fireRate": 0.09,
+  "reloadTime": 2,
+  "spawnRate": 0.0255,
+  "accuracy": 0.3452,
+  "killDistance": 9.64
+ },
+ {
+  "weaponName": "PP-19 Bizon",
+  "baseDamage": 35,
+  "fireRate": 0.065,
+  "reloadTime": 3.7,
+  "spawnRate": 0.0245,
+  "accuracy": 0.1404,
+  "killDistance": 8.03
+ },
+ {
+  "weaponName": "MP5K",
+  "baseDamage": 33,
+  "fireRate": 0.066,
+  "reloadTime": 4.58,
+  "spawnRate": 0.0636,
+  "accuracy": 0.1462,
+  "killDistance": 14.9
+ },
+ {
+  "weaponName": "Vector",
+  "baseDamage": 31,
+  "fireRate": 0.055,
+  "reloadTime": 2.2,
+  "spawnRate": 0.0263,
+  "accuracy": 0.1258,
+  "killDistance": 9.52
+ },
+ {
+  "weaponName": "DBS",
+  "baseDamage": 26,
+  "fireRate": "?",
+  "reloadTime": "?",
+  "spawnRate": 0.0007,
+  "accuracy": 0.8535,
+  "killDistance": 9.37
+ },
+ {
+  "weaponName": "S1897",
+  "baseDamage": 26,
+  "fireRate": 0.75,
+  "reloadTime": 4,
+  "spawnRate": 0.0344,
+  "accuracy": 0.9144,
+  "killDistance": 6.61
+ },
+ {
+  "weaponName": "S686",
+  "baseDamage": 26,
+  "fireRate": 0.2,
+  "reloadTime": 3,
+  "spawnRate": 0.0248,
+  "accuracy": 0.915,
+  "killDistance": 4.92
+ },
+ {
+  "weaponName": "Micro UZI",
+  "baseDamage": 26,
+  "fireRate": 0.048,
+  "reloadTime": 3.1,
+  "spawnRate": 0.0292,
+  "accuracy": 0.146,
+  "killDistance": 6.01
+ },
+ {
+  "weaponName": "S12K",
+  "baseDamage": 25,
+  "fireRate": 0.25,
+  "reloadTime": 3,
+  "spawnRate": 0.0108,
+  "accuracy": 0.8701,
+  "killDistance": 6.39
+ },
+ {
+  "weaponName": "P18C",
+  "baseDamage": 23,
+  "fireRate": 0.06,
+  "reloadTime": 2,
+  "spawnRate": 0.27,
+  "accuracy": 0.3127,
+  "killDistance": 71.62
+ },
+ {
+  "weaponName": "Sawed-off",
+  "baseDamage": 22,
+  "fireRate": 0.25,
+  "reloadTime": 4,
+  "spawnRate": 0.0042,
+  "accuracy": 0.9145,
+  "killDistance": 6.11
+ },
+ {
+  "weaponName": "Skorpion",
+  "baseDamage": 22,
+  "fireRate": 0.07,
+  "reloadTime": 3.1,
+  "spawnRate": 0.004,
+  "accuracy": 0.2778,
+  "killDistance": 9.83
+ }
+]

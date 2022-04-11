@@ -4,15 +4,33 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {
   MaterialIcons, Entypo, FontAwesome, Ionicons,
 } from '@expo/vector-icons';
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 
-import Leaderboard from './src/screens/Leaderboard';
+import Leaderboard from './src/screens/Leaderboard/Leaderboard';
 import Home from './src/screens/Home';
+import Weapons from './src/screens/Weapons/Weapons';
 
 const Tab = createBottomTabNavigator();
 
+declare global {
+  namespace ReactNativePaper {
+    interface ThemeColors {
+      tableColor: string;
+    }
+  }
+}
+
 export default function App() {
+  const theme = {
+    ...DefaultTheme,
+    colors: {
+      ...DefaultTheme.colors,
+      tableColor: '#FFDE40',
+    },
+  };
+
   return (
-    <>
+    <PaperProvider theme={theme}>
       <NavigationContainer>
         <Tab.Navigator screenOptions={() => ({
           tabBarActiveBackgroundColor: '#090907',
@@ -38,7 +56,7 @@ export default function App() {
           />
           <Tab.Screen
             name="Weapons"
-            component={Home}
+            component={Weapons}
             options={{ headerShown: false, tabBarIcon: ({ color }) => (<FontAwesome name="bar-chart" size={24} color={color} />) }}
           />
           <Tab.Screen
@@ -54,6 +72,6 @@ export default function App() {
         </Tab.Navigator>
       </NavigationContainer>
       <StatusBar translucent style="light" />
-    </>
+    </PaperProvider>
   );
 }

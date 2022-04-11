@@ -1,31 +1,14 @@
 import { Picker } from '@react-native-picker/picker';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {
   ScrollView, StyleSheet, Text, View, ActivityIndicator,
 } from 'react-native';
-
-import { getLeaderboardData } from '../services/leaderboardService';
-import { Player } from '../utils/interfaces';
+import useLeaderboard from './useLeaderboard';
 
 export default function Leaderboard() {
-  const [leaderboard, setLeaderboard] = useState<Array<Player>>([]);
-  const [loading, setLoading] = useState<boolean>(false);
-
-  const [region, setRegion] = useState<string>('na');
-  const [gameMode, setGameMode] = useState<string>('squad');
-
-  const getLeaderboard = async () => {
-    setLoading(true);
-    const regionBuilder = `psn-${region}`;
-
-    const { data } = await getLeaderboardData(regionBuilder, gameMode);
-    setLeaderboard(data);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    getLeaderboard();
-  }, [gameMode, region]);
+  const {
+    leaderboard, loading, region, setRegion, gameMode, setGameMode,
+  } = useLeaderboard();
 
   return (
     <View style={styles.screenContainer}>
@@ -43,8 +26,10 @@ export default function Leaderboard() {
             style={styles.picker}
             dropdownIconColor="#fff"
           >
-            <Picker.Item label="NA" value="na" />
-            <Picker.Item label="EU" value="eu" />
+            <Picker.Item label="PS NA" value="psn-na" />
+            <Picker.Item label="PS EU" value="psn-eu" />
+            <Picker.Item label="XBOX NA" value="xbox-na" />
+            <Picker.Item label="XBOX EU" value="xbox-eu" />
           </Picker>
         </View>
         <View style={styles.pickerContainer}>
@@ -106,7 +91,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#090907',
   },
   headerContainer: {
-    margin: 30,
+    marginTop: 50,
+    marginBottom: 30,
+    marginHorizontal: 30,
     alignItems: 'center',
   },
   playerContainer: {
@@ -132,7 +119,6 @@ const styles = StyleSheet.create({
   },
   picker: {
     marginHorizontal: 30,
-    // marginVertical: 15,
     width: 150,
     height: 40,
     color: '#fff',
