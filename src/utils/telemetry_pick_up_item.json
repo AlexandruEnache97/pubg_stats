@@ -1,0 +1,64 @@
+[
+    {
+        "character": {
+            "name": "jjl18813090286",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 148798.8125,
+                "y": 127570.7265625,
+                "z": 504.85000610351562
+            },
+            "ranking": 0,
+            "accountId": "account.76bb2e649b7a4c78a04473b27c45166b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Medium_C",
+            "stackCount": 1,
+            "category": "Attachment",
+            "subCategory": "None",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.112Z",
+        "_T": "LogItemPickup"
+    },
+    {
+        "character": {
+            "name": "jjl18813090286",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 148693.984375,
+                "y": 127681.1015625,
+                "z": 504.85000610351562
+            },
+            "ranking": 0,
+            "accountId": "account.76bb2e649b7a4c78a04473b27c45166b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Attach_Weapon_Magazine_ExtendedQuickDraw_Large_C",
+            "stackCount": 1,
+            "category": "Attachment",
+            "subCategory": "None",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.647Z",
+        "_T": "LogItemPickup"
+    },
+]

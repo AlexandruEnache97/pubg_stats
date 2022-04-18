@@ -9,6 +9,7 @@ import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import Leaderboard from './src/screens/Leaderboard/Leaderboard';
 import Home from './src/screens/Home';
 import Weapons from './src/screens/Weapons/Weapons';
+import Maps from './src/screens/Maps/Maps';
 
 const Tab = createBottomTabNavigator();
 
@@ -61,7 +62,7 @@ export default function App() {
           />
           <Tab.Screen
             name="Map"
-            component={Home}
+            component={Maps}
             options={{ headerShown: false, tabBarIcon: ({ color }) => (<Entypo name="map" size={20} color={color} />) }}
           />
           <Tab.Screen

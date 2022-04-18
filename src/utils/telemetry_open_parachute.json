@@ -1,0 +1,619 @@
+[
+    {
+        "character": {
+            "name": "jjl18813090286",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 147945.546875,
+                "y": 128116.7421875,
+                "z": 759.0257568359375
+            },
+            "ranking": 0,
+            "accountId": "account.76bb2e649b7a4c78a04473b27c45166b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.566Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "jjl18813090286",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 147757.8125,
+                "y": 128157.5390625,
+                "z": 901.163330078125
+            },
+            "ranking": 0,
+            "accountId": "account.76bb2e649b7a4c78a04473b27c45166b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 331.13482666015625,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.566Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "721kuaidiyuan",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 149879.890625,
+                "y": 127812.9375,
+                "z": 451.48928833007812
+            },
+            "ranking": 0,
+            "accountId": "account.9d5c0ba5a5374592b2ae0b21e49d7858",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.766Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "721kuaidiyuan",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 149921.3125,
+                "y": 127737.7265625,
+                "z": 504.1456298828125
+            },
+            "ranking": 0,
+            "accountId": "account.9d5c0ba5a5374592b2ae0b21e49d7858",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 339.06060791015625,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.767Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "gasdhtw",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 149495.625,
+                "y": 137665.609375,
+                "z": 881.31317138671875
+            },
+            "ranking": 0,
+            "accountId": "ai.303",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.772Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "gasdhtw",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 149495.625,
+                "y": 137665.609375,
+                "z": 881.31317138671875
+            },
+            "ranking": 0,
+            "accountId": "ai.303",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.773Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "gasdhtw",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 149493.3125,
+                "y": 137662.46875,
+                "z": 878.89794921875
+            },
+            "ranking": 0,
+            "accountId": "ai.303",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:36.774Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "LudaV_jestica",
+            "teamId": 204,
+            "health": 100,
+            "location": {
+                "x": 147844.3125,
+                "y": 122363.5,
+                "z": 876.96429443359375
+            },
+            "ranking": 0,
+            "accountId": "ai.292",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:37.605Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "LudaV_jestica",
+            "teamId": 204,
+            "health": 100,
+            "location": {
+                "x": 147844.3125,
+                "y": 122363.5,
+                "z": 876.96429443359375
+            },
+            "ranking": 0,
+            "accountId": "ai.292",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:37.605Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "LudaV_jestica",
+            "teamId": 204,
+            "health": 100,
+            "location": {
+                "x": 147857.3125,
+                "y": 122357.2890625,
+                "z": 865.0142822265625
+            },
+            "ranking": 0,
+            "accountId": "ai.292",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:37.605Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "IciiX31",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 142779.078125,
+                "y": 126306.96875,
+                "z": 2420.363037109375
+            },
+            "ranking": 0,
+            "accountId": "account.5d354b5e610041e5b1306707021e3eda",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.770Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "IciiX31",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 142974.421875,
+                "y": 126219.328125,
+                "z": 2441.982421875
+            },
+            "ranking": 0,
+            "accountId": "account.5d354b5e610041e5b1306707021e3eda",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 324.67306518554688,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.771Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "CBOMchx",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 151010.3125,
+                "y": 136906.65625,
+                "z": 1401.0115966796875
+            },
+            "ranking": 0,
+            "accountId": "ai.305",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:39.810Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "CBOMchx",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 151010.3125,
+                "y": 136906.65625,
+                "z": 1401.0115966796875
+            },
+            "ranking": 0,
+            "accountId": "ai.305",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:39.810Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "CBOMchx",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 150990.984375,
+                "y": 136899.90625,
+                "z": 1391.7862548828125
+            },
+            "ranking": 0,
+            "accountId": "ai.305",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "distance": 0,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:39.811Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "MambaVision",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 140571.59375,
+                "y": 122686.6875,
+                "z": 838.0296630859375
+            },
+            "ranking": 0,
+            "accountId": "account.56ed3d5e991b490aabf5ec493718b60a",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:39.905Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "MambaVision",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 140633.46875,
+                "y": 122742.0078125,
+                "z": 900.1146240234375
+            },
+            "ranking": 0,
+            "accountId": "account.56ed3d5e991b490aabf5ec493718b60a",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 335.85260009765625,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:39.905Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "Deadshot02",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 142962.828125,
+                "y": 125492.1796875,
+                "z": 712.85321044921875
+            },
+            "ranking": 0,
+            "accountId": "account.9d16994e8f0e414cae3bf86f082b67a1",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.441Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "Deadshot02",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 143162.453125,
+                "y": 125347.296875,
+                "z": 936.4942626953125
+            },
+            "ranking": 0,
+            "accountId": "account.9d16994e8f0e414cae3bf86f082b67a1",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 372.20855712890625,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.441Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "glassvapour",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 148204.671875,
+                "y": 124972.640625,
+                "z": 1179.322021484375
+            },
+            "ranking": 0,
+            "accountId": "account.bbab726377784554bfc6a512e5b3b83e",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.641Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "glassvapour",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 148270,
+                "y": 125026.5,
+                "z": 1240.8009033203125
+            },
+            "ranking": 0,
+            "accountId": "account.bbab726377784554bfc6a512e5b3b83e",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 399.018798828125,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.641Z",
+        "_T": "LogParachuteLanding"
+    },
+    {
+        "character": {
+            "name": "paardenlul69",
+            "teamId": 1,
+            "health": 100,
+            "location": {
+                "x": 147576.078125,
+                "y": 128916.046875,
+                "z": 886.5369873046875
+            },
+            "ranking": 0,
+            "accountId": "account.34945bf3c0da45c094180180c2070f49",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "item": {
+            "itemId": "Item_Back_B_01_StartParachutePack_C",
+            "stackCount": 1,
+            "category": "Equipment",
+            "subCategory": "Backpack",
+            "attachedItems": []
+        },
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:41.811Z",
+        "_T": "LogItemUnequip"
+    },
+    {
+        "character": {
+            "name": "paardenlul69",
+            "teamId": 1,
+            "health": 100,
+            "location": {
+                "x": 147719.59375,
+                "y": 128875.296875,
+                "z": 979.12335205078125
+            },
+            "ranking": 0,
+            "accountId": "account.34945bf3c0da45c094180180c2070f49",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "distance": 375.08462524414062,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:41.812Z",
+        "_T": "LogParachuteLanding"
+    },
+]

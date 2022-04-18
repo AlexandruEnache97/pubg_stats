@@ -6,4 +6,9 @@ export const getLeaderboardData = async (region: string, gameMode: string) => {
   return data;
 };
 
+export const getLeaderboardStats = async () => {
+  const data = await get(`${NODE_SERVER}/getLeaderboardData`);
+  return data;
+};
+
 export const setLeaderboardData = async () => null;

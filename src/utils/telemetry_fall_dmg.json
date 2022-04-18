@@ -1,0 +1,49 @@
+[
+    {
+        "attackId": -1,
+        "attacker": {
+            "name": "IciiX31",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 141384.875,
+                "y": 126926.609375,
+                "z": 1200.8199462890625
+            },
+            "ranking": 0,
+            "accountId": "account.5d354b5e610041e5b1306707021e3eda",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "victim": {
+            "name": "IciiX31",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 141384.875,
+                "y": 126926.609375,
+                "z": 1200.8199462890625
+            },
+            "ranking": 0,
+            "accountId": "account.5d354b5e610041e5b1306707021e3eda",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "damageTypeCategory": "Damage_Instant_Fall",
+        "damageReason": "NonSpecific",
+        "damage": 50.530513763427734,
+        "damageCauserName": "PlayerFemale_A_C",
+        "isThroughPenetrableWall": false,
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:40.014Z",
+        "_T": "LogPlayerTakeDamage"
+    },
+]

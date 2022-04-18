@@ -1,0 +1,2387 @@
+[
+    {
+        "character": {
+            "name": "gasdhtw",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 176564.3125,
+                "y": 152029.65625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.303",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.9873046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.177Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Vynyster3",
+            "teamId": 203,
+            "health": 100,
+            "location": {
+                "x": 176470.890625,
+                "y": 151904.984375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.294",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.916015625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.211Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "sun_w20131127",
+            "teamId": 203,
+            "health": 100,
+            "location": {
+                "x": 176377.453125,
+                "y": 151780.3125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.295",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.46435546875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.244Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "LudaV_jestica",
+            "teamId": 204,
+            "health": 100,
+            "location": {
+                "x": 176283.984375,
+                "y": 151655.59375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.292",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.91650390625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.277Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "jjl18813090286",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 176190.5,
+                "y": 151530.859375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.76bb2e649b7a4c78a04473b27c45166b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4667.001953125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.311Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "glassvapour",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 176190.5,
+                "y": 151530.859375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.bbab726377784554bfc6a512e5b3b83e",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4667.001953125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.311Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "JonasAv_elar",
+            "teamId": 202,
+            "health": 100,
+            "location": {
+                "x": 175349.59375,
+                "y": 150408.8125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.300",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.52978515625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:11.611Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "721kuaidiyuan",
+            "teamId": 12,
+            "health": 100,
+            "location": {
+                "x": 174041.59375,
+                "y": 148663.5,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9d5c0ba5a5374592b2ae0b21e49d7858",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.951171875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.079Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Kr__hang",
+            "teamId": 202,
+            "health": 100,
+            "location": {
+                "x": 172826.9375,
+                "y": 147042.75,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.299",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.697265625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.513Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Deadshot02",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 172453.1875,
+                "y": 146544.03125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9d16994e8f0e414cae3bf86f082b67a1",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.34033203125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.647Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Frik32",
+            "teamId": 6,
+            "health": 100,
+            "location": {
+                "x": 172266.3125,
+                "y": 146294.6875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.f2f326ecceac4858b97d81c5901a7a5a",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.8623046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.714Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Schweppss",
+            "teamId": 6,
+            "health": 100,
+            "location": {
+                "x": 172266.3125,
+                "y": 146294.6875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.5a8bb9b625b440098ab25f689262d504",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.8623046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.714Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "CBOMchx",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 172266.3125,
+                "y": 146294.6875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.305",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.8623046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:12.715Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Pugalgal_77_25",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 171051.390625,
+                "y": 144673.578125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.304",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.24072265625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.148Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "CrazyTigerix",
+            "teamId": 1,
+            "health": 100,
+            "location": {
+                "x": 170864.53125,
+                "y": 144424.234375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.151aea658bef45b48624a22fd300a02a",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.78173828125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.215Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "paardenlul69",
+            "teamId": 1,
+            "health": 100,
+            "location": {
+                "x": 170864.53125,
+                "y": 144424.234375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.34945bf3c0da45c094180180c2070f49",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.78173828125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.215Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Wattgrau",
+            "teamId": 1,
+            "health": 100,
+            "location": {
+                "x": 170864.53125,
+                "y": 144424.234375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.91270daddab7472d8f0387ab220a3637",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.78173828125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.216Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "MambaVision",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 170117.046875,
+                "y": 143426.84375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.56ed3d5e991b490aabf5ec493718b60a",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.32373046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.483Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "jyjy0_401",
+            "teamId": 204,
+            "health": 100,
+            "location": {
+                "x": 170023.59375,
+                "y": 143302.15625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.293",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4665.583984375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:13.516Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "IciiX31",
+            "teamId": 4,
+            "health": 100,
+            "location": {
+                "x": 167407.40625,
+                "y": 139811.296875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.5d354b5e610041e5b1306707021e3eda",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4665.36962890625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:14.451Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Makar_35RUS",
+            "teamId": 200,
+            "health": 100,
+            "location": {
+                "x": 164314.8125,
+                "y": 135684.734375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.307",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.7705078125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:15.556Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "42sadfdwh",
+            "teamId": 202,
+            "health": 100,
+            "location": {
+                "x": 163566.9375,
+                "y": 134686.84375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.301",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.3232421875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:15.824Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "JAM_YOON",
+            "teamId": 203,
+            "health": 100,
+            "location": {
+                "x": 161601.46875,
+                "y": 132064.25,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.296",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.40771484375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:16.527Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Hou_j_iao",
+            "teamId": 200,
+            "health": 100,
+            "location": {
+                "x": 159172.296875,
+                "y": 128822.9375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.306",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.8193359375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:17.395Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "ItsWhiska_s",
+            "teamId": 201,
+            "health": 100,
+            "location": {
+                "x": 155902.09375,
+                "y": 124459.3984375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.302",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.9951171875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:18.565Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Ahadli",
+            "teamId": 2,
+            "health": 100,
+            "location": {
+                "x": 155715.171875,
+                "y": 124209.984375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.d07c2966bfc248dd9dbc638585459806",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.58935546875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:18.632Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "r1c31985",
+            "teamId": 2,
+            "health": 100,
+            "location": {
+                "x": 155715.171875,
+                "y": 124209.984375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.f06d711ad73e4f3c8c7779e1a459f64b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.58935546875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:18.632Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "PemLrog",
+            "teamId": 203,
+            "health": 100,
+            "location": {
+                "x": 151228.40625,
+                "y": 118223.1484375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.297",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.21630859375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:20.236Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Vogel_51",
+            "teamId": 6,
+            "health": 100,
+            "location": {
+                "x": 149172.28125,
+                "y": 115479.6015625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.76fabe8034444de4b20de30e09a2effd",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": [
+                "hadiqanemo"
+            ]
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4669.8583984375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:20.971Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Cherthill23",
+            "teamId": 2,
+            "health": 100,
+            "location": {
+                "x": 144872,
+                "y": 109741.59375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.06e75d3e64a74d16b26d18e90089f13b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.5615234375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:22.507Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "MACROj",
+            "teamId": 15,
+            "health": 100,
+            "location": {
+                "x": 144217.921875,
+                "y": 108868.8515625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.ba2c105e2516496b98717e51c4a8c0e9",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.64208984375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:22.740Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "NikkiFath_er",
+            "teamId": 202,
+            "health": 100,
+            "location": {
+                "x": 143937.59375,
+                "y": 108494.8046875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.298",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.9306640625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:22.842Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "BLANKj_",
+            "teamId": 15,
+            "health": 100,
+            "location": {
+                "x": 140293.28125,
+                "y": 103632.078125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.5c21258a2bab4f4eaaf75ef6060eb572",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.20947265625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:24.143Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "KOZ_Yusuf",
+            "teamId": 8,
+            "health": 100,
+            "location": {
+                "x": 139732.71875,
+                "y": 102884.0859375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.5a5bbe1d730e4d4486768d36b3af8107",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.9599609375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:24.345Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "keremsiziyerem",
+            "teamId": 8,
+            "health": 100,
+            "location": {
+                "x": 139732.71875,
+                "y": 102884.0859375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.3ac1013c36e84a3cb00ca132816aa243",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.9599609375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:24.345Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "GG_Meretton_YT",
+            "teamId": 11,
+            "health": 100,
+            "location": {
+                "x": 130668.6328125,
+                "y": 90789.6015625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.4915da67559343248cd22ca99ab98927",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.24072265625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:27.586Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Sharkolos",
+            "teamId": 9,
+            "health": 100,
+            "location": {
+                "x": 129921.1328125,
+                "y": 89792.1953125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.27d2f04d468541cc874552e2d7a06478",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.33544921875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:27.852Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "AgRaF",
+            "teamId": 11,
+            "health": 100,
+            "location": {
+                "x": 128426.2109375,
+                "y": 87797.46875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9801e662eb6445558e01f617a95f525e",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4661.98876953125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:28.386Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "MILLA_STYLES",
+            "teamId": 11,
+            "health": 100,
+            "location": {
+                "x": 127398.4140625,
+                "y": 86426.046875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.daa2c715e3c14538b39dd32009c2dc13",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.361328125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:28.754Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "idL_ouiO",
+            "teamId": 200,
+            "health": 100,
+            "location": {
+                "x": 125997.0234375,
+                "y": 84556.125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.308",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4662.111328125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.254Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "VlaDelMar",
+            "teamId": 9,
+            "health": 100,
+            "location": {
+                "x": 125062.46875,
+                "y": 83309.125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.fb7eeab7f3864d809a86664662b2a5bc",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.50830078125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.589Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "SaintOfSteel",
+            "teamId": 9,
+            "health": 100,
+            "location": {
+                "x": 125062.46875,
+                "y": 83309.125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.19e45fc19e4e4c82ab058b4d0c1f8ecc",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4663.50830078125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.589Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Deligado",
+            "teamId": 3,
+            "health": 100,
+            "location": {
+                "x": 124875.6015625,
+                "y": 83059.78125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.135ba13ea8c648d7a6bea395b54d3f3b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.07373046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.656Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "1MPULS999",
+            "teamId": 3,
+            "health": 100,
+            "location": {
+                "x": 124875.6015625,
+                "y": 83059.78125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.d0b2ea22a2f645458535fa705f7c157b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.07373046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.657Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Dragoneos",
+            "teamId": 3,
+            "health": 100,
+            "location": {
+                "x": 124875.6015625,
+                "y": 83059.78125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9a403bd358694590a515e8c04775f386",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.07373046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.657Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "2kul4skl",
+            "teamId": 3,
+            "health": 100,
+            "location": {
+                "x": 124875.6015625,
+                "y": 83059.78125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.d271d6c759da42b7b3c8d99ddebf83f3",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.07373046875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.657Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "UMKA_NAFYL",
+            "teamId": 11,
+            "health": 100,
+            "location": {
+                "x": 123941.2109375,
+                "y": 81812.9921875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.ccd521e457684a3bb45369cde9bd0cc9",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.25537109375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:29.990Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "ifymbabb",
+            "teamId": 200,
+            "health": 100,
+            "location": {
+                "x": 121138.0078125,
+                "y": 78072.59375,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "ai.309",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.25244140625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:30.992Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "JRidley93",
+            "teamId": 14,
+            "health": 100,
+            "location": {
+                "x": 111887.0078125,
+                "y": 65728.6953125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.3805c494f49e4b349c89b11373beb726",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.634765625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:34.299Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Ziessel",
+            "teamId": 10,
+            "health": 100,
+            "location": {
+                "x": 110111.7578125,
+                "y": 63359.921875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9dca87c024dc4a5996f5041cb6d0c766",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.2255859375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:34.933Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "SabeBillyTalent",
+            "teamId": 10,
+            "health": 100,
+            "location": {
+                "x": 110111.7578125,
+                "y": 63359.921875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.22359f0f62134105afd55a2b37c3db4b",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.2255859375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:34.934Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Bimont",
+            "teamId": 10,
+            "health": 100,
+            "location": {
+                "x": 110111.7578125,
+                "y": 63359.921875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.c77328984ecc40bfbbda64758aa83132",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.2255859375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:34.934Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Weird-o",
+            "teamId": 10,
+            "health": 100,
+            "location": {
+                "x": 110111.7578125,
+                "y": 63359.921875,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.09f631dc714345708db35285a9a7bfd7",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4666.2255859375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:34.934Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "HerpyDerp1",
+            "teamId": 14,
+            "health": 100,
+            "location": {
+                "x": 109084.0078125,
+                "y": 61988.5625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.c46f9358259e47889f494f9152fd68af",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4659.833984375,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:35.301Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "allingaming2",
+            "teamId": 7,
+            "health": 100,
+            "location": {
+                "x": 107775.828125,
+                "y": 60243.015625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.eac9ceea431b46b2ae71f2d78e646be7",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.703125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:35.768Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "DardiUka",
+            "teamId": 7,
+            "health": 100,
+            "location": {
+                "x": 107775.828125,
+                "y": 60243.015625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.678bbce0d4c04905bc2070c7431babd9",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.703125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:35.769Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Jushimishima",
+            "teamId": 7,
+            "health": 100,
+            "location": {
+                "x": 107775.828125,
+                "y": 60243.015625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.f2153a2d6f6c47b0bd89c6ead06dc808",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.703125,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:35.769Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "kersam",
+            "teamId": 14,
+            "health": 100,
+            "location": {
+                "x": 99646.7421875,
+                "y": 49396.125,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9bea9269e46a4f129274832f9f078123",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.8779296875,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.675Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "TheThirdDad",
+            "teamId": 5,
+            "health": 100,
+            "location": {
+                "x": 99272.984375,
+                "y": 48897.40625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.0b92b431a0934c95b5288d371919dad0",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.3291015625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.808Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "IHATECROATIANS",
+            "teamId": 5,
+            "health": 100,
+            "location": {
+                "x": 99272.984375,
+                "y": 48897.40625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.9e1234f626474f03865794a06b8c75e1",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.3291015625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.808Z",
+        "_T": "LogVehicleLeave"
+    },
+    {
+        "character": {
+            "name": "Alanuelo230",
+            "teamId": 5,
+            "health": 100,
+            "location": {
+                "x": 99272.984375,
+                "y": 48897.40625,
+                "z": 75208
+            },
+            "ranking": 0,
+            "accountId": "account.fc18f6b096e142e1aa36fd0ea3e555c7",
+            "isInBlueZone": false,
+            "isInRedZone": false,
+            "zone": []
+        },
+        "vehicle": {
+            "vehicleType": "TransportAircraft",
+            "vehicleId": "DummyTransportAircraft_C",
+            "seatIndex": 0,
+            "healthPercent": 0,
+            "feulPercent": 0,
+            "altitudeAbs": 0,
+            "altitudeRel": 0,
+            "velocity": 4664.3291015625,
+            "isWheelsInAir": false,
+            "isInWaterVolume": false,
+            "isEngineOn": false
+        },
+        "rideDistance": 0,
+        "seatIndex": 0,
+        "maxSpeed": 310.90411376953125,
+        "fellowPassengers": [],
+        "common": {
+            "isGame": 0.10000000149011612
+        },
+        "_D": "2022-04-08T22:55:38.809Z",
+        "_T": "LogVehicleLeave"
+    }
+]

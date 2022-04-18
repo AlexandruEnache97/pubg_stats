@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 
-export default function Leaderboard() {
+export default function Home() {
   return (
     <View style={styles.container} />
   );

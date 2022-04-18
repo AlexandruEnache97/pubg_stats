@@ -1,0 +1,7 @@
+const playerTabs = {
+  MAIN_STATISTICS: 'MAIN_STATISTICS',
+  WEAPON_MASTERY: 'WEAPON_MASTERY',
+  SURVIVAL_MASTERY: 'SURVIVAL_MASTERY',
+};
+
+export default playerTabs;
