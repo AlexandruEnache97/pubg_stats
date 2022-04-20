@@ -32,3 +32,9 @@ export interface LeaderboardCollectedData {
   rankPoints: number,
   topNumberOfPlayers: number
 }
+
+export interface LeaderboardContextAPI {
+  regionPlatform: string,
+  platform: string,
+  leaderboardDataCollected: LeaderboardCollectedData | null
+}

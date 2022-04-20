@@ -1,23 +1,27 @@
 import { Picker } from '@react-native-picker/picker';
 import { useEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { LeaderboardCollectedData, Player } from '../../../../utils/interfaces';
+import { LeaderboardCollectedData, LeaderboardContextAPI, Player } from '../../../../utils/interfaces';
+import { useLeaderboardGlobalContext } from '../../contexts/LeaderboardContext';
 
-export default function PlayerLeaderboardDetails({ player, leaderboardCollected }: {
+export default function PlayerLeaderboardDetails({ player }: {
   player: Player,
-  leaderboardCollected: Array<LeaderboardCollectedData>
 }) {
   const [topCollectedData, setTopCollectedData] = useState<number>(100);
   // eslint-disable-next-line max-len
   const [leaderboardStats, setLeaderboardStats] = useState<LeaderboardCollectedData | undefined | null>(null);
 
+  const { state: { leaderboardDataCollected } }: {
+    state?: LeaderboardContextAPI
+  } = useLeaderboardGlobalContext();
+
   useEffect(() => {
-    const getSelectedLeaderboardStats = leaderboardCollected.find(
-      (item) => item.topNumberOfPlayers === topCollectedData,
+    const getSelectedLeaderboardStats = leaderboardDataCollected.find(
+      (item: LeaderboardCollectedData) => item.topNumberOfPlayers === topCollectedData,
     );
 
     setLeaderboardStats(getSelectedLeaderboardStats);
-  }, [topCollectedData]);
+  }, [leaderboardDataCollected, topCollectedData]);
 
   return (
     <>

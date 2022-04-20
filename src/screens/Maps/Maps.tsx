@@ -1,9 +1,10 @@
 import {
-  Dimensions, ScrollView, View, Image,
+  Dimensions, View,
 } from 'react-native';
-import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView';
+// import ReactNativeZoomableView from
+// '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView';
 // import { ImageMapper } from 'react-native-image-mapper';
-// import ZoomableImage from './ZoomableImage';
+import ZoomableImage from './ZoomableImage';
 
 const { width } = Dimensions.get('window');
 
@@ -45,37 +46,37 @@ export default function Maps() {
       backgroundColor: '#000',
     }}
     >
-      {/* <ZoomableImage
+      <ZoomableImage
         imageHeight={1000}
         imageWidth={width}
         annotations={annotations}
         popOverStyles={{ backgroundColor: 'white' }}
         // eslint-disable-next-line global-require
         source={require('../../images/pubgMap.png')}
-      /> */}
-      <ScrollView horizontal>
-        <ReactNativeZoomableView
-          maxZoom={3}
-          minZoom={1.2}
-          zoomCenteringLevelDistance={3}
-          zoomStep={0.5}
-          initialZoom={1.5}
-          bindToBorders
-          captureEvent
-          style={{
-            height: '100%',
-            width: '130%',
-            padding: 10,
-            backgroundColor: 'black',
-          }}
-        >
-          <Image
-            source={require('../../images/pubgMap.png')}
-            resizeMode="contain"
-            style={{ flex: 1, width: null, height: '100%' }}
-          />
-        </ReactNativeZoomableView>
-      </ScrollView>
+      />
+      {/* <ScrollView horizontal> */}
+      {/* <ReactNativeZoomableView
+        maxZoom={3}
+        minZoom={1.2}
+        zoomCenteringLevelDistance={3}
+        zoomStep={0.5}
+        initialZoom={1.5}
+        bindToBorders
+        captureEvent
+        style={{
+          height: '100%',
+          width: '130%',
+          padding: 10,
+          backgroundColor: 'black',
+        }}
+      >
+        <Image
+          source={require('../../images/pubgMap.png')}
+          resizeMode="contain"
+          style={{ flex: 1, width: null, height: '100%' }}
+        />
+      </ReactNativeZoomableView> */}
+      {/* </ScrollView> */}
     </View>
   );
 }

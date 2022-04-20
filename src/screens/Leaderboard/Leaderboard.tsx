@@ -3,9 +3,9 @@ import { StyleSheet, View } from 'react-native';
 
 import LeaderboardList from './components/LeaderboardList';
 import LeaderboardPlayer from './components/LeaderboardPlayer';
-
-import useLeaderboardList from './components/useLeaderboardList';
 import useLeaderboard from './useLeaderboard';
+
+import { LeaderboardContextProvider } from './contexts/LeaderboardContext';
 
 export default function Leaderboard() {
   const {
@@ -13,20 +13,20 @@ export default function Leaderboard() {
     setSelectedPlayer,
   } = useLeaderboard();
 
-  const { leaderboardCollected } = useLeaderboardList();
-
   return (
-    <View style={styles.screenContainer}>
-      {selectedPlayer
-        ? (
-          <LeaderboardPlayer
-            player={selectedPlayer}
-            setSelectedPlayer={setSelectedPlayer}
-            leaderboardCollected={leaderboardCollected}
-          />
-        )
-        : <LeaderboardList setSelectedPlayer={setSelectedPlayer} />}
-    </View>
+    <LeaderboardContextProvider>
+      <View style={styles.screenContainer}>
+        {selectedPlayer
+          ? (
+            <LeaderboardPlayer
+              player={selectedPlayer}
+              setSelectedPlayer={setSelectedPlayer}
+            />
+          )
+          : <LeaderboardList setSelectedPlayer={setSelectedPlayer} />}
+      </View>
+    </LeaderboardContextProvider>
+
   );
 }
 

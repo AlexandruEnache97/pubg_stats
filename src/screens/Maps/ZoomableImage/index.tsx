@@ -110,8 +110,6 @@ class ZoomableImage extends Component {
     let match: Annotation;
     if (this.props.annotations) {
       this.props.annotations.every((annotation: Annotation) => {
-        console.log(annotation);
-
         const {
           x1, x2, y1, y2,
         } = this.normalizeAnnotation(annotation);

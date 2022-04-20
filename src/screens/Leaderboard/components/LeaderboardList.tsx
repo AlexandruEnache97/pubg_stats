@@ -5,6 +5,8 @@ import {
 } from 'react-native';
 
 import { Player } from '../../../utils/interfaces';
+import { SET_REGION_PLATFORM } from '../contexts/constants';
+import { useLeaderboardGlobalContext } from '../contexts/LeaderboardContext';
 
 import useLeaderboardList from './useLeaderboardList';
 
@@ -14,8 +16,12 @@ interface LeaderboardProps {
 
 function LeaderboardList({ setSelectedPlayer }: LeaderboardProps) {
   const {
-    leaderboard, loading, region, setRegion, gameMode, setGameMode,
+    leaderboard, loading, regionPlatform, gameMode, setGameMode,
   } = useLeaderboardList();
+
+  const {
+    dispatch: leaderboardDispatch,
+  } = useLeaderboardGlobalContext();
 
   return (
     <>
@@ -27,8 +33,10 @@ function LeaderboardList({ setSelectedPlayer }: LeaderboardProps) {
         <View style={styles.pickerContainer}>
           <Text style={styles.text}>Region</Text>
           <Picker
-            selectedValue={region}
-            onValueChange={(value) => setRegion(value)}
+            selectedValue={regionPlatform}
+            onValueChange={(value) => leaderboardDispatch(
+              { type: SET_REGION_PLATFORM, data: { regionPlatform: value } },
+            )}
             mode="dropdown"
             style={styles.picker}
             dropdownIconColor="#fff"

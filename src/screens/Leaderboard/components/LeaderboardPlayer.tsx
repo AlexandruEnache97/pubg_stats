@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-import { LeaderboardCollectedData, Player } from '../../../utils/interfaces';
+import { Player } from '../../../utils/interfaces';
 import PlayerLeaderboardDetails from './PlayerMenuScreens/PlayerLeaderboardDetails';
 import playerTabs from '../../../utils/constants';
 import Home from '../../Home';
@@ -17,11 +17,9 @@ function LeaderboardPlayer(
   {
     player,
     setSelectedPlayer,
-    leaderboardCollected,
   }: {
     player: Player,
     setSelectedPlayer: Dispatch<SetStateAction<Player | null>>,
-    leaderboardCollected: Array<LeaderboardCollectedData>
   },
 ) {
   const [activeTab, setActiveTab] = useState<string>(playerTabs.MAIN_STATISTICS);
@@ -36,13 +34,12 @@ function LeaderboardPlayer(
         return (
           <PlayerLeaderboardDetails
             player={player}
-            leaderboardCollected={leaderboardCollected}
           />
         );
       case playerTabs.WEAPON_MASTERY:
         return (<PlayerWeaponMastery />);
       case playerTabs.SURVIVAL_MASTERY:
-        return (<PlayerSurvivalMastery />);
+        return (<PlayerSurvivalMastery player={player} />);
       default:
         return (
           <Home />

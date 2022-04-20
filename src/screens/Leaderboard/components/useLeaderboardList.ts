@@ -1,35 +1,47 @@
 import { useEffect, useState } from 'react';
 
 import { getLeaderboardData, getLeaderboardStats } from '../../../services/leaderboardService';
-import { LeaderboardCollectedData, Player } from '../../../utils/interfaces';
+import { LeaderboardContextAPI, Player } from '../../../utils/interfaces';
+import { SET_LEADERBOARD_DATA_COLLECTED } from '../contexts/constants';
+import { useLeaderboardGlobalContext } from '../contexts/LeaderboardContext';
 
 const useLeaderboardList = () => {
   const [leaderboard, setLeaderboard] = useState<Array<Player>>([]);
-  // eslint-disable-next-line max-len
-  const [leaderboardCollected, setLeaderboardCollected] = useState<Array<LeaderboardCollectedData>>([]);
   const [loading, setLoading] = useState<boolean>(false);
 
-  const [region, setRegion] = useState<string>('psn-na');
   const [gameMode, setGameMode] = useState<string>('squad');
+
+  const {
+    state: { platform, regionPlatform, leaderboardDataCollected },
+    dispatch: leaderboardDispatch,
+  }: {
+    state?: LeaderboardContextAPI,
+    dispatch?: any
+  } = useLeaderboardGlobalContext();
 
   const getLeaderboard = async () => {
     setLoading(true);
-    const { data } = await getLeaderboardData(region, gameMode);
-    const leaderboardStats = await getLeaderboardStats();
-    setLeaderboardCollected(leaderboardStats.data);
+
+    const { data } = await getLeaderboardData(regionPlatform, gameMode);
+    if (!leaderboardDataCollected) {
+      const leaderboardStats = await getLeaderboardStats();
+      leaderboardDispatch({
+        type: SET_LEADERBOARD_DATA_COLLECTED,
+        data: { leaderboardDataCollected: leaderboardStats.data },
+      });
+    }
     setLeaderboard(data);
     setLoading(false);
   };
   useEffect(() => {
     getLeaderboard();
-  }, [gameMode, region]);
+  }, [gameMode, regionPlatform]);
 
   return {
     leaderboard,
-    leaderboardCollected,
     loading,
-    region,
-    setRegion,
+    regionPlatform,
+    platform,
     gameMode,
     setGameMode,
   };
