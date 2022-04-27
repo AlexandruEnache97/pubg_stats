@@ -2,15 +2,22 @@ import { useEffect, useState } from 'react';
 import {
   ScrollView, StyleSheet, Text, View,
 } from 'react-native';
-import { getPlayerSurvivalMastery } from '../../../../services/playerDataService';
+import { getMaxPlayerSurvivalMastery, getPlayerSurvivalMastery } from '../../../../services/playerDataService';
 import { LeaderboardContextAPI, Player } from '../../../../utils/interfaces';
+import { SET_MAX_SURVIVAL_MASTERIES } from '../../contexts/constants';
 import { useLeaderboardGlobalContext } from '../../contexts/LeaderboardContext';
 import RadarGraph from './RadarGraph/RadarGraph';
 
 export default function PlayerSurvivalMastery(
   { player }: { player: Player, },
 ) {
-  const { state: { platform } }: { state?: LeaderboardContextAPI } = useLeaderboardGlobalContext();
+  const {
+    state: {
+      platform,
+      maxSurvivalMasteries,
+    },
+    dispatch: leaderboardDispatch,
+  }: { state?: LeaderboardContextAPI, dispatch?: any } = useLeaderboardGlobalContext();
 
   const [playerSurvivalMastery, setPlayerSurvivalMastery] = useState<any>(null);
 
@@ -19,43 +26,14 @@ export default function PlayerSurvivalMastery(
     setPlayerSurvivalMastery(data.data);
   };
 
-  const data = [{
-    speed: 74,
-    balance: 29,
-    explosives: 40,
-    energy: 40,
-    flexibility: 30,
-    agility: 25,
-    endurance: 44,
-  }];
-
-  const options = {
-    width: 290,
-    height: 290,
-    margin: {
-      top: 20,
-      left: 20,
-      right: 30,
-      bottom: 20,
-    },
-    r: 150,
-    max: 100,
-    fill: '#2980B9',
-    stroke: '#2980B9',
-    animate: {
-      type: 'oneByOne',
-      duration: 200,
-    },
-    label: {
-      fontFamily: 'Arial',
-      fontSize: 14,
-      fontWeight: true,
-      fill: '#34495E',
-    },
+  const getMaxSurvivalMasteries = async () => {
+    const { data } = await getMaxPlayerSurvivalMastery(platform);
+    leaderboardDispatch({ type: SET_MAX_SURVIVAL_MASTERIES, data: { maxSurvivalMasteries: data } });
   };
 
   useEffect(() => {
     getSurvivalMastery();
+    if (!maxSurvivalMasteries) getMaxSurvivalMasteries();
   }, []);
 
   return (
@@ -68,7 +46,10 @@ export default function PlayerSurvivalMastery(
         </Text>
       </View>
       <ScrollView>
-        <RadarGraph />
+        <RadarGraph
+          playerSurvivalMastery={playerSurvivalMastery}
+          maxSurvivalMasteries={maxSurvivalMasteries}
+        />
         {playerSurvivalMastery && (
           <View style={styles.dataContainer}>
             <Text style={styles.text}>
@@ -106,18 +87,21 @@ export default function PlayerSurvivalMastery(
             <Text style={styles.text}>
               Average damage dealt
               {' '}
-              {Math.round(playerSurvivalMastery.attributes.stats.damageDealt.average * 100) / 100}
+              {Math.round(playerSurvivalMastery.attributes.stats.damageDealt.average
+                * 100) / 100}
               .
             </Text>
             <Text style={styles.text}>
               Career best damage dealt
               {' '}
-              {Math.round(playerSurvivalMastery.attributes.stats.damageDealt.careerBest * 100) / 100}
+              {Math.round(playerSurvivalMastery.attributes.stats.damageDealt.careerBest
+                * 100) / 100}
             </Text>
             <Text style={styles.text}>
               Average damage taken
               {' '}
-              {Math.round(playerSurvivalMastery.attributes.stats.damageTaken.average * 100) / 100}
+              {Math.round(playerSurvivalMastery.attributes.stats.damageTaken.average
+                * 100) / 100}
             </Text>
             <Text style={styles.text}>
               Average distance by swimming
@@ -183,7 +167,6 @@ export default function PlayerSurvivalMastery(
           </View>
         )}
       </ScrollView>
-
     </View>
   );
 }

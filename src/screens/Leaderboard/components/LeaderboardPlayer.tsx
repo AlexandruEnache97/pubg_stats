@@ -37,7 +37,7 @@ function LeaderboardPlayer(
           />
         );
       case playerTabs.WEAPON_MASTERY:
-        return (<PlayerWeaponMastery />);
+        return (<PlayerWeaponMastery player={player} />);
       case playerTabs.SURVIVAL_MASTERY:
         return (<PlayerSurvivalMastery player={player} />);
       default:

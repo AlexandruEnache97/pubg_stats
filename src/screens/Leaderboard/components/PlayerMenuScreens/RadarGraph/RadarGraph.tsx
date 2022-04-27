@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+import { useEffect, useState } from 'react';
 import { Dimensions, View } from 'react-native';
 import Svg, {
   Circle, G, Line, Polygon, Text, TSpan,
@@ -6,9 +7,91 @@ import Svg, {
 
 const { width } = Dimensions.get('screen');
 
-function RadarGraph() {
-  const degToRadians = (deg: number) => (deg * Math.PI) / 180.0;
+interface RadarValue { label: string, value: number }
 
+function RadarGraph({ maxSurvivalMasteries, playerSurvivalMastery }: { maxSurvivalMasteries: any, playerSurvivalMastery: any }) {
+  const [isTooltipDisplayed, setIsTooltipDisplayed] = useState<boolean>(false);
+  const [radarData, setRadarData] = useState<Array<RadarValue>>([
+    { label: 'totalAirDropsCalled', value: 0 },
+    { label: 'averageEnemyCratesLooted', value: 0 },
+    { label: 'averageUniqueItemsLooted', value: 0 },
+    { label: 'averageThrowablesThrown', value: 0 },
+    { label: 'averageDamageTaken', value: 0 },
+    { label: 'averageDamageDealt', value: 0 },
+    { label: 'top10', value: 0 },
+    { label: 'averagePosition', value: 0 },
+    { label: 'averageTimeSurvived', value: 0 },
+    { label: 'averageHealed', value: 0 },
+  ]);
+
+  useEffect(() => {
+    if (playerSurvivalMastery !== null && maxSurvivalMasteries !== null) {
+      setRadarData([
+        {
+          label: 'totalAirDropsCalled',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.airDropsCalled.total)
+            / maxSurvivalMasteries.totalAirDropsCalled,
+        },
+        {
+          label: 'averageEnemyCratesLooted',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.enemyCratesLooted.average)
+            / maxSurvivalMasteries.averageEnemyCratesLooted,
+        },
+        {
+          label: 'averageUniqueItemsLooted',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.uniqueItemsLooted.average)
+            / maxSurvivalMasteries.averageUniqueItemsLooted,
+        },
+        {
+          label: 'averageThrowablesThrown',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.throwablesThrown.average)
+            / maxSurvivalMasteries.averageThrowablesThrown,
+        },
+        {
+          label: 'averageDamageTaken',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.damageTaken.average)
+            / maxSurvivalMasteries.averageDamageTaken,
+        },
+        {
+          label: 'averageDamageDealt',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.damageDealt.average)
+            / maxSurvivalMasteries.averageDamageDealt,
+        },
+        {
+          label: 'top10',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.top10.total)
+            / maxSurvivalMasteries.top10,
+        },
+        {
+          label: 'averagePosition',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.position.average)
+            / maxSurvivalMasteries.averagePosition,
+        },
+        {
+          label: 'averageTimeSurvived',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.timeSurvived.average)
+            / maxSurvivalMasteries.averageTimeSurvived,
+        },
+        {
+          label: 'averageHealed',
+          value:
+            (100 * playerSurvivalMastery.attributes.stats.healed.average)
+            / maxSurvivalMasteries.averageHealed,
+        },
+      ]);
+    }
+  }, [playerSurvivalMastery, maxSurvivalMasteries]);
+
+  const degToRadians = (deg: number) => (deg * Math.PI) / 180.0;
   const calculateEdgePoint = (center: number, radius: number, degree: number) => {
     const degreeInRadians = degToRadians(degree);
     return [
@@ -22,22 +105,16 @@ function RadarGraph() {
   const radarTextOposite = ['Damage', 'Top 10', 'Position', 'Time', 'Heal'];
   const radarTextOposite2 = ['dealt', 'players', 'per game', 'survived', 'recieved'];
 
-  const radarData = [
-    { label: 'Air drop', value: 86 },
-    { label: 'Crates looted', value: 70 },
-    { label: 'Items looted', value: 60 },
-    { label: 'Throwable used', value: 85 },
-    { label: 'Damage taken', value: 60 },
-    { label: 'Damage dealt', value: 40 },
-    { label: 'Top 10 players', value: 50 },
-    { label: 'Position per game', value: 69 },
-    { label: 'Time survived', value: 50 },
-    { label: 'Heak recieved', value: 44 },
-  ];
-
   const viewBoxCenterX = 140;
   const viewBoxCenterY = 150;
   const radius = 100;
+
+  const polygonOnClick = () => {
+    setIsTooltipDisplayed(!isTooltipDisplayed);
+  };
+
+  const renderTooltipPoligon = () => {
+  };
 
   const renderLineDotsText = () => {
     let current = -1;
@@ -154,15 +231,16 @@ function RadarGraph() {
         {renderLineDotsText()}
         <Polygon
           stroke="#FFEA65"
-          strokeWidth={1.2}
+          strokeWidth={0.7}
           fill="#FFEA65"
-          fillOpacity={0.9}
+          fillOpacity={0.5}
           points={`${radarData.map((r, i) => `${calculateEdgePoint(viewBoxCenterX, ((radius - 22) * r.value) / 100, i * 36)[0]} ,
             ${calculateEdgePoint(viewBoxCenterY, ((radius - 22) * r.value) / 100, i * 36)[1]}`)}`}
+          onPressOut={polygonOnClick}
         />
         {radarData.map((r, i) => (
           <Line
-            key={`crosshair_stroked_${r.value * i}`}
+            key={`crosshair_stroked_${r.value + i}`}
             x1={calculateEdgePoint(viewBoxCenterX, ((radius - 22) * r.value) / 100, i * 36)[0]}
             y1={calculateEdgePoint(viewBoxCenterY, ((radius - 22) * r.value) / 100, i * 36)[1]}
             x2={viewBoxCenterX}
@@ -173,6 +251,7 @@ function RadarGraph() {
             fill="transparent"
           />
         ))}
+        {isTooltipDisplayed && renderTooltipPoligon()}
       </Svg>
     </View>
   );

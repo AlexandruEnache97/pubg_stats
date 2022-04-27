@@ -1,6 +1,6 @@
 import React, { useContext, useReducer } from 'react';
 import { LeaderboardContextAPI } from '../../../utils/interfaces';
-import { SET_LEADERBOARD_DATA_COLLECTED, SET_REGION_PLATFORM } from './constants';
+import { SET_LEADERBOARD_DATA_COLLECTED, SET_MAX_SURVIVAL_MASTERIES, SET_REGION_PLATFORM } from './constants';
 
 const LeaderboardGlobalContext = React.createContext<{
   state?: LeaderboardContextAPI,
@@ -11,6 +11,7 @@ const leaderboardGlobalState: LeaderboardContextAPI = {
   platform: 'psn',
   regionPlatform: 'psn-na',
   leaderboardDataCollected: null,
+  maxSurvivalMasteries: null,
 };
 
 const leaderboardGlobalReducer = (
@@ -29,6 +30,12 @@ const leaderboardGlobalReducer = (
       return {
         ...state,
         leaderboardDataCollected: data.leaderboardDataCollected,
+      };
+    }
+    case SET_MAX_SURVIVAL_MASTERIES: {
+      return {
+        ...state,
+        maxSurvivalMasteries: data.maxSurvivalMasteries,
       };
     }
     default: {

@@ -1,14 +1,23 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable react/destructuring-assignment */
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
-  Animated, ScrollView, StyleSheet, Dimensions, View, PanResponder, Image, TouchableWithoutFeedback, TouchableHighlight, Modal, Text,
+  Animated,
+  ScrollView,
+  StyleSheet,
+  Dimensions,
+  View,
+  PanResponder,
+  TouchableWithoutFeedback,
+  TouchableHighlight,
+  Modal,
+  Text,
 } from 'react-native';
 import PulsingCircle from './PulsingCircle';
 
 const MAX_ZOOM = 2.5;
 const ANIMATION_DURATION = 400;
-const { height, width } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 const POPUP_COLOR = 'white';
 
 interface Annotation {
@@ -19,42 +28,26 @@ interface Annotation {
   description: string
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  overlay: {
-    flexGrow: 1,
-  },
+interface ReactState {
+  scale: Animated.Value,
+  inZoomedState: boolean,
+  isZooming: boolean,
+  offsetX: number,
+  offsetY: number,
+  popupX: number,
+  popupY: number,
+  popupArrowX: number,
+  arrowDirection: string,
+  modalVisible: boolean,
+  currentAnnotation: Annotation | null
+}
 
-  popupContainer: {
-    marginHorizontal: 16,
-    backgroundColor: POPUP_COLOR,
-    padding: 8,
-    borderRadius: 3,
-    width: width - 40,
-  },
+interface ReactProps {
 
-  popupText: {
-    fontSize: 17,
-  },
+}
 
-  triangle: {
-    width: 0,
-    height: 0,
-    backgroundColor: 'transparent',
-    borderStyle: 'solid',
-    borderLeftWidth: 6.5,
-    borderRightWidth: 6.5,
-    borderBottomWidth: 10,
-    borderLeftColor: 'transparent',
-    borderRightColor: 'transparent',
-    borderBottomColor: POPUP_COLOR,
-  },
-});
-
-class ZoomableImage extends Component {
-  constructor(props) {
+class ZoomableImage extends Component<ReactProps, ReactState> {
+  constructor(props: ReactProps) {
     super(props);
     this.popupRef = (ref) => this.popupRef = ref;
     this.showPopup = this.showPopup.bind(this);
@@ -64,11 +57,12 @@ class ZoomableImage extends Component {
       isZooming: false,
       offsetX: 0,
       offsetY: 0,
-      popupY: 0,
       popupX: 0,
+      popupY: 0,
       popupArrowX: 0,
       arrowDirection: 'down',
       modalVisible: false,
+      currentAnnotation: null,
     };
     this.onImagePress = this.onImagePress.bind(this);
     this.initValues = this.initValues.bind(this);
@@ -106,6 +100,10 @@ class ZoomableImage extends Component {
     }
   }
 
+  onMoveShouldSetPanResponder(e: any, s: any) {
+    return s.numberActiveTouches === 2 || (this.state.inZoomedState && !this.state.isZooming);
+  }
+
   getAnnotation(x: number, y: number) {
     let match: Annotation;
     if (this.props.annotations) {
@@ -117,6 +115,8 @@ class ZoomableImage extends Component {
         return !match;
       });
     }
+    console.log(match);
+
     return match;
   }
 
@@ -149,10 +149,6 @@ class ZoomableImage extends Component {
       onPanResponderGrant: this.onPanResponderGrant,
     };
     this.panResponder = PanResponder.create(config);
-  }
-
-  onMoveShouldSetPanResponder(e, s) {
-    return s.numberActiveTouches === 2 || (this.state.inZoomedState && !this.state.isZooming);
   }
 
   onPanResponderMove(e, s) {
@@ -226,8 +222,15 @@ class ZoomableImage extends Component {
         locationX = 0, locationY = 0, pageX, pageY,
       } = {},
     } = e;
-    this.currentAnnotation = this.getAnnotation(locationX, locationY);
-    if (this.currentAnnotation && !this.state.inZoomedState) {
+
+    const { currentAnnotation } = this.state;
+
+    this.setState((prevState) => ({
+      ...prevState,
+      currentAnnotation: this.getAnnotation(locationX, locationY),
+    }));
+
+    if (currentAnnotation && !this.state.inZoomedState) {
       this.setState({
         popupY: pageY,
       });
@@ -240,6 +243,8 @@ class ZoomableImage extends Component {
   }
 
   zoomUpImage() {
+    const { currentAnnotation } = this.state;
+
     this.setState({ isZooming: true });
     Animated.timing(
       this.state.scale,
@@ -250,7 +255,7 @@ class ZoomableImage extends Component {
       },
     ).start(() => {
       this.setState({ inZoomedState: true, isZooming: false });
-      if (this.currentAnnotation) { this.showPopup(); }
+      if (currentAnnotation) { this.showPopup(); }
     });
   }
 
@@ -273,12 +278,13 @@ class ZoomableImage extends Component {
   }
 
   popupContent() {
+    const { currentAnnotation } = this.state;
     return (
       <View style={{ position: 'absolute', top: (this.props.imageHeight / 2) - this.locationY + this.pageY }}>
         <View style={[styles.triangle, { marginLeft: width / 2 - 20 }]} />
         <View ref={this.popupContentRef} style={[styles.popupContainer, this.props.popOverStyles]}>
           <Text style={styles.popupText}>
-            {this.currentAnnotation && this.currentAnnotation.description}
+            {currentAnnotation && currentAnnotation.description}
           </Text>
         </View>
       </View>
@@ -369,7 +375,6 @@ class ZoomableImage extends Component {
               }]}
             />
           </TouchableWithoutFeedback>
-
         </ScrollView>
         {this.renderTouchpoints()}
       </View>
@@ -378,3 +383,37 @@ class ZoomableImage extends Component {
 }
 
 export default ZoomableImage;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  overlay: {
+    flexGrow: 1,
+  },
+
+  popupContainer: {
+    marginHorizontal: 16,
+    backgroundColor: POPUP_COLOR,
+    padding: 8,
+    borderRadius: 3,
+    width: width - 40,
+  },
+
+  popupText: {
+    fontSize: 17,
+  },
+
+  triangle: {
+    width: 0,
+    height: 0,
+    backgroundColor: 'transparent',
+    borderStyle: 'solid',
+    borderLeftWidth: 6.5,
+    borderRightWidth: 6.5,
+    borderBottomWidth: 10,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderBottomColor: POPUP_COLOR,
+  },
+});

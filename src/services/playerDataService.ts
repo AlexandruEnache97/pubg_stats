@@ -8,8 +8,16 @@ export const getPlayerSurvivalMastery = async (platform: string, accountId: stri
   return data;
 };
 
+export const getMaxPlayerSurvivalMastery = async (platform: string) => {
+  const data = await get(`${NODE_SERVER}/maxSurvivalMastery/${platform}`);
+
+  return data;
+};
+
 export const getPlayerWeaponMastery = async (platform: string, accountId: string) => {
   const data = await get(`${NODE_SERVER}/getWeaponMastery/${platform}/${accountId}`);
+  console.log('weapon called');
+
   return data;
 };
 

@@ -8,6 +8,14 @@ import {
 const PULSING_INTERVAL = 500;
 const CIRCLE_RADIUS = 10;
 
+interface ReactState {
+  scale: Animated.Value
+}
+
+interface ReactProps {
+  pulse: boolean
+}
+
 const styles = StyleSheet.create({
   circle: {
     height: CIRCLE_RADIUS * 2,
@@ -17,8 +25,8 @@ const styles = StyleSheet.create({
   },
 });
 
-class PulsingCircle extends Component {
-  constructor(props) {
+class PulsingCircle extends Component<ReactProps, ReactState> {
+  constructor(props: ReactProps) {
     super(props);
     this.state = {
       scale: new Animated.Value(1),
