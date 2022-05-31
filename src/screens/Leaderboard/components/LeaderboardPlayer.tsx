@@ -1,9 +1,7 @@
 import {
   Dispatch, SetStateAction, useState,
 } from 'react';
-import {
-  StyleSheet, Text, TouchableOpacity, View,
-} from 'react-native';
+import { StyleSheet, TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 import { Player } from '../../../utils/interfaces';
@@ -12,6 +10,7 @@ import playerTabs from '../../../utils/constants';
 import Home from '../../Home';
 import PlayerWeaponMastery from './PlayerMenuScreens/PlayerWeaponMastery';
 import PlayerSurvivalMastery from './PlayerMenuScreens/PlayerSurvivalMastery';
+import Paragraph from '../../../components/Paragraph';
 
 function LeaderboardPlayer(
   {
@@ -56,31 +55,24 @@ function LeaderboardPlayer(
           </TouchableOpacity>
         </View>
         <View style={styles.headerTitleContainer}>
-          <Text style={styles.textHeader}>PUBG Stats!</Text>
-          <Text style={styles.textHeader}>Player leaderboard data</Text>
+          <Paragraph style={styles.textTitle}>PLAYER DATA</Paragraph>
         </View>
       </View>
       <View style={styles.menuContainer}>
         <TouchableOpacity onPress={() => onTabClicked(playerTabs.MAIN_STATISTICS)}>
-          <Text style={activeTab === playerTabs.MAIN_STATISTICS
-            ? styles.activeTextMenu : styles.textHeader}
-          >
-            Main statistics
-          </Text>
+          <Paragraph style={activeTab === playerTabs.MAIN_STATISTICS && styles.activeTextMenu}>
+            STATISTICS
+          </Paragraph>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => onTabClicked(playerTabs.WEAPON_MASTERY)}>
-          <Text style={activeTab === playerTabs.WEAPON_MASTERY
-            ? styles.activeTextMenu : styles.textHeader}
-          >
-            Weapon mastery
-          </Text>
+          <Paragraph style={activeTab === playerTabs.WEAPON_MASTERY && styles.activeTextMenu}>
+            WEAPON MASTERY
+          </Paragraph>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => onTabClicked(playerTabs.SURVIVAL_MASTERY)}>
-          <Text style={activeTab === playerTabs.SURVIVAL_MASTERY
-            ? styles.activeTextMenu : styles.textHeader}
-          >
-            Survival mastery
-          </Text>
+          <Paragraph style={activeTab === playerTabs.SURVIVAL_MASTERY && styles.activeTextMenu}>
+            SURVIVAL MASTERY
+          </Paragraph>
         </TouchableOpacity>
       </View>
       {renderCurrentTab()}
@@ -91,27 +83,34 @@ function LeaderboardPlayer(
 export default LeaderboardPlayer;
 
 const styles = StyleSheet.create({
+  textTitle: {
+    fontFamily: 'boldDroidSans',
+    fontSize: 28,
+  },
   screenContainer: {
     flex: 1,
   },
   headerContainer: {
     flexDirection: 'row',
-    marginTop: 50,
+    paddingVertical: 20,
+    marginTop: 30,
     paddingBottom: 15,
-    marginBottom: 15,
     paddingHorizontal: 30,
     justifyContent: 'space-between',
     alignItems: 'center',
     borderBottomColor: '#fff',
     borderBottomWidth: 1,
+    borderTopColor: '#fff',
+    borderTopWidth: 1,
+    borderLeftColor: '#fff',
+    borderLeftWidth: 1,
+    borderRightColor: '#fff',
+    borderRightWidth: 1,
   },
   headerTitleContainer: {
     flexGrow: 1,
     alignItems: 'center',
     paddingRight: 20,
-  },
-  textHeader: {
-    color: '#efefef',
   },
   activeTextMenu: {
     color: '#DE8D00',
@@ -121,7 +120,11 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around',
     borderBottomColor: '#fff',
     borderBottomWidth: 1,
+    paddingTop: 15,
     paddingBottom: 15,
-    marginBottom: 15,
+    borderLeftColor: '#fff',
+    borderLeftWidth: 1,
+    borderRightColor: '#fff',
+    borderRightWidth: 1,
   },
 });

@@ -1,7 +1,7 @@
 import { Picker } from '@react-native-picker/picker';
 import { useEffect, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { LeaderboardCollectedData, LeaderboardContextAPI, Player } from '../../../../utils/interfaces';
+import { LeaderboardCollectedData, Player } from '../../../../utils/interfaces';
 import { useLeaderboardGlobalContext } from '../../contexts/LeaderboardContext';
 
 export default function PlayerLeaderboardDetails({ player }: {
@@ -12,7 +12,7 @@ export default function PlayerLeaderboardDetails({ player }: {
   const [leaderboardStats, setLeaderboardStats] = useState<LeaderboardCollectedData | undefined | null>(null);
 
   const { state: { leaderboardDataCollected } }: {
-    state?: LeaderboardContextAPI
+    state?: any
   } = useLeaderboardGlobalContext();
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function PlayerLeaderboardDetails({ player }: {
   }, [leaderboardDataCollected, topCollectedData]);
 
   return (
-    <>
+    <View style={styles.pageContainer}>
       <View style={styles.topSelectorContainer}>
         <Text style={styles.textHeader}>Data is compared with top players: </Text>
         <Picker
@@ -139,11 +139,18 @@ export default function PlayerLeaderboardDetails({ player }: {
           </View>
         )
       }
-    </>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
+  pageContainer: {
+    flex: 1,
+    borderLeftWidth: 1,
+    borderLeftColor: '#fff',
+    borderRightWidth: 1,
+    borderRightColor: '#fff',
+  },
   textHeader: {
     color: '#efefef',
   },

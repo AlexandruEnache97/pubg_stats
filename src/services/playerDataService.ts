@@ -21,4 +21,9 @@ export const getPlayerWeaponMastery = async (platform: string, accountId: string
   return data;
 };
 
+export const getTestedWeapons = async () => {
+  const data = await get(`${NODE_SERVER}/getWeaponsTested`);
+  return data;
+};
+
 export const setLeaderboardData = async () => null;

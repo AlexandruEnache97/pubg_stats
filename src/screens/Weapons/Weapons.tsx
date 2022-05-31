@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
-import {
-  StyleSheet, Text, View, ActivityIndicator,
-} from 'react-native';
+import { StyleSheet, View, ActivityIndicator } from 'react-native';
+import Paragraph from '../../components/Paragraph';
+import WeaponsTested from './components/WeaponsTested';
 
 const WeaponStaticTable = React.lazy(() => import('./components/WeaponStaticTable'));
 
@@ -9,8 +9,8 @@ export default function Weapons() {
   return (
     <View style={styles.screenContainer}>
       <View style={styles.headerContainer}>
-        <Text style={styles.text}>PUBG Stats!</Text>
-        <Text style={styles.text}>Weapons Data</Text>
+        <Paragraph>PUBG Stats!</Paragraph>
+        <Paragraph>Weapons Data</Paragraph>
       </View>
       <Suspense fallback={(
         <View>
@@ -18,7 +18,8 @@ export default function Weapons() {
         </View>
       )}
       >
-        <WeaponStaticTable />
+        {/* <WeaponStaticTable /> */}
+        <WeaponsTested />
       </Suspense>
     </View>
   );

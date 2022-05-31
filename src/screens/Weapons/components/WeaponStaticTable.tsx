@@ -1,8 +1,7 @@
-import {
-  Text, ScrollView, View, StyleSheet,
-} from 'react-native';
+import { ScrollView, View, StyleSheet } from 'react-native';
 import { DataTable } from 'react-native-paper';
 
+import Paragraph from '../../../components/Paragraph';
 import weaponJson from '../../../utils/Weapons.json';
 
 export default function WeaponStaticTable() {
@@ -12,37 +11,72 @@ export default function WeaponStaticTable() {
         <ScrollView horizontal>
           <View>
             <DataTable.Header style={{ width: 700 }}>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Weapon</DataTable.Title>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Dmg</DataTable.Title>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Fire rate</DataTable.Title>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Reload</DataTable.Title>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Spawn</DataTable.Title>
-              <DataTable.Title style={styles.tableHeaderBorder} textStyle={{ color: '#FFDE40' }}>Accuracy</DataTable.Title>
-              <DataTable.Title style={styles.tableEndHeaderBorder} textStyle={{ color: '#FFDE40' }}>Kill distance</DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                WEAPON
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                DAMAGE
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                FIRE RATE
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                RELOAD
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                SPAWN
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                ACCURACY
+              </DataTable.Title>
+              <DataTable.Title
+                style={styles.tableEndHeaderBorder}
+                textStyle={{ color: '#FFDE40', fontFamily: 'boldDroidSans' }}
+              >
+                KILL DISTANCE
+              </DataTable.Title>
             </DataTable.Header>
             <ScrollView>
               {weaponJson.map((item) => (
                 <DataTable.Row key={item.weaponName} style={{ width: 700 }}>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.weaponName}</Text>
+                    <Paragraph>{item.weaponName}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.baseDamage}</Text>
+                    <Paragraph>{item.baseDamage}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.fireRate}</Text>
+                    <Paragraph>{item.fireRate}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.reloadTime}</Text>
+                    <Paragraph>{item.reloadTime}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.spawnRate}</Text>
+                    <Paragraph>{item.spawnRate}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableBorder}>
-                    <Text style={styles.text}>{item.accuracy}</Text>
+                    <Paragraph>{item.accuracy}</Paragraph>
                   </DataTable.Cell>
                   <DataTable.Cell style={styles.tableEndCellBorder}>
-                    <Text style={styles.text}>{item.killDistance}</Text>
+                    <Paragraph>{item.killDistance}</Paragraph>
                   </DataTable.Cell>
                 </DataTable.Row>
               ))}

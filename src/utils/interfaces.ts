@@ -34,8 +34,8 @@ export interface LeaderboardCollectedData {
 }
 
 export interface LeaderboardContextAPI {
-  regionPlatform: string,
-  platform: string,
-  leaderboardDataCollected: LeaderboardCollectedData | null,
-  maxSurvivalMasteries: any
+  regionPlatform?: string,
+  platform?: string,
+  leaderboardDataCollected?: LeaderboardCollectedData | null,
+  maxSurvivalMasteries?: any
 }

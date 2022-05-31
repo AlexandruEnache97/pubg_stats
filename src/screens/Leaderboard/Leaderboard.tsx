@@ -26,7 +26,6 @@ export default function Leaderboard() {
           : <LeaderboardList setSelectedPlayer={setSelectedPlayer} />}
       </View>
     </LeaderboardContextProvider>
-
   );
 }
 
