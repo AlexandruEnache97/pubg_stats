@@ -18,7 +18,7 @@ interface LeaderboardProps {
 
 function LeaderboardList({ setSelectedPlayer }: LeaderboardProps) {
   const {
-    leaderboard, loading, regionPlatform, gameMode, setGameMode,
+    leaderboard, loading, /* regionPlatform, gameMode, */ setGameMode,
   } = useLeaderboardList();
 
   const {

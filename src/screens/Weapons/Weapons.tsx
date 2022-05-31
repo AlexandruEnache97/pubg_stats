@@ -3,7 +3,7 @@ import { StyleSheet, View, ActivityIndicator } from 'react-native';
 import Paragraph from '../../components/Paragraph';
 import WeaponsTested from './components/WeaponsTested';
 
-const WeaponStaticTable = React.lazy(() => import('./components/WeaponStaticTable'));
+// const WeaponStaticTable = React.lazy(() => import('./components/WeaponStaticTable'));
 
 export default function Weapons() {
   return (

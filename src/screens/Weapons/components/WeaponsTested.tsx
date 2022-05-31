@@ -5,7 +5,7 @@ import Paragraph from '../../../components/Paragraph';
 import { getTestedWeapons } from '../../../services/playerDataService';
 
 export default function WeaponsTested() {
-  const [weaponsTested, setWeaponsTested] = useState<any>(null);
+  const [weaponsTested, setWeaponsTested] = useState<Array<any> | null>(null);
 
   const getWeaponsTested = async () => {
     const { data } = await getTestedWeapons();
@@ -42,6 +42,7 @@ export default function WeaponsTested() {
               </View>
             );
           }
+          return null;
         })}
       </ScrollView>
     </View>
